@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/gnschenker/azure-nodejs#readme",
   "dependencies": {
+    "express": "^4.13.4",
     "moment": "^2.11.2"
   }
 }
