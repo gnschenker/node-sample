@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "First test with node JS on Azure",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnschenker/azure-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "JS",
+    "Azure"
+  ],
+  "author": "Gabriel N. Schenker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnschenker/azure-nodejs/issues"
+  },
+  "homepage": "https://github.com/gnschenker/azure-nodejs#readme"
+}
