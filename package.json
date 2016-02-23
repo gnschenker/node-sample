@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gnschenker/azure-nodejs/issues"
   },
-  "homepage": "https://github.com/gnschenker/azure-nodejs#readme"
+  "homepage": "https://github.com/gnschenker/azure-nodejs#readme",
+  "dependencies": {
+    "moment": "^2.11.2"
+  }
 }
