@@ -4,7 +4,8 @@ var app = express();
 
 app.get('/', function (req, res) {
   var dt = moment().format();
-  res.send('Express JS says "Hello World"!<br>' + dt);
+  var name = process.env.MY_NAME || 'unknown';
+  res.send('Express JS says "Hello ' + name + '"!<br>' + dt);
 });
 
 var port = process.env.PORT || 1337;
