@@ -9,11 +9,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/products', function (req, res){
-  var products = {
-    {"id": 1, "name": "Apples"}
-    {"id": 2, "name": "Pears"}
+  var products = [
+    {"id": 1, "name": "Apples"},
+    {"id": 2, "name": "Pears"},
     {"id": 3, "name": "Lemons"}
-  };
+  ];
   res.send(products);
 });
 
